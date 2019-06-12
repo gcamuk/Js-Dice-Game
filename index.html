@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="main.css">
+    
     <title>Gary's JavaScript Dice Game Challenge</title>
 </head>
 
 <body>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
     <div id="wrapper">
 
     <div id="dice-wrapper">
-        <div id="dice1" class="dice">0</div>
-        <div id="dice2" class="dice">0</div>
+        <div id="dice1" class="dice"></div>
+        <div id="dice2" class="dice"></div>
     </div>
 
     <div id="button-wrapper">
@@ -23,7 +25,8 @@
     </div>
 
     <div id="result">
-        <h2 id="resultDisplay">How much can you roll?</h2>
+        <h2 id="resultDisplay"></h2>
+        <h2 id="rollTotal">Roll to start</h2>
     </div>
 </div>
 
