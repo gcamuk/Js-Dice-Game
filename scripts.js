@@ -1,3 +1,7 @@
+
+
+    
+    
     let die1 = document.getElementById("dice1");
     let die2 = document.getElementById("dice2");
     let score = 0;
@@ -18,7 +22,6 @@
         score += diceSum
         rollTotal.innerHTML = `Your score is ${score}`;
         // SENDING VALUES OF DICE ROLLED TO HTML ELEMENTS TO BE DISPLAYED
-
     
 
         if (score >= 20) {
